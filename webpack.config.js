@@ -34,7 +34,7 @@ const config = {
       template: resolve(__dirname, 'public', 'index.html'),
       filename: 'index.html',
       inject: 'root',
-    })
+    }),
   ],
 };
 
