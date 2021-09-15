@@ -30,6 +30,10 @@ const config = {
         test: /\.(png|jpe?g|gif)$/i,
         loader: 'file-loader',
       },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
+      },
     ],
   },
   plugins: [
